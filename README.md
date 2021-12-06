@@ -6,6 +6,6 @@ A website that outlines my accomplishments/projects annd about myself.
 * HTML
 * CSS
 ## Website
-file:///Users/jonathannickpor/Desktop/portfolio/index.html#portfolio
+https://nickporjonathan.github.io/nickporportfolio/
 ## Contribution
 Made with :heart: by nickporjonathan
