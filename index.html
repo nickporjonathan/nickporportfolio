@@ -1,47 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Jonathan Nickpor</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>Jonathan Nickpor</title>
-  <link rel="stylesheet" href="./assets/style.css" />
-</head>
-
-<body>
+  <body>
     <!--header-->
     <header>
-        <h1>
-            <a href="/">
-                JONATHAN NICKPOR
-            </a>
-        </h1>
-        <nav>
-            <!--Unordered list element-->
-            <ul>
-                <!--List item element-->
-                <li>
-                    <!--Anchor element-->
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-                <!--add in resume pdf link-->
-                <li>
-                    <a href="resume">Resume</a>
-                </li>
-            </ul>
-        </nav>
+      <h1>
+        <a href="/"> JONATHAN NICKPOR </a>
+      </h1>
+      <nav>
+        <!--Unordered list element-->
+        <ul>
+          <!--List item element-->
+          <li>
+            <!--Anchor element-->
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <!--add in resume pdf link in ahref-->
+          <li>
+            <a href="resume">Resume</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-    <!--hero-->
-    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-        <div class="hero-container" data-aos="fade-in">
-            <h1>Jonathan Nickpor</h1>
-        </div>
+    <!-- hero/jumbotron -->
+    <section class="hero"></section>
+
+    <!-- "about" section -->
+    <section id="about">
+      <h2>About</h2>
+      <div>
+        <img
+          src="./assets/IMG_7873.jpeg"
+          style="
+            object-fit: contain;
+            width: 200px;
+            height: 300px;
+            border: solid 1px #ccc;
+          "
+        />
+      </div>
+
+      <p>
+        butcher selfies chambray shabby chic gentrify readymade yr Echo Park
+        XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you
+        probably haven't heard of them single-origin coffee Vice fanny pack
+        fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson
+        Thundercats viral bitters flannel meggings narwhal Marfa Schlitz
+        sustainable Intelligentsia umami deep v craft
+      </p>
     </section>
 
-</body>
+    <!-- "portfolio" section -->
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+
+      <div>
+        <h3>Run Buddy</h3>
+        <p>Created Run Buddy</p>
+      </div>
+
+      <div>
+        <h3>Code Refractor</h3>
+        <p>Edited html and css code for Horieson</p>
+      </div>
+    </section>
+
+    <!-- "resume" section -->
+    <section>
+      <h2>Resume</h2>
+    </section>
+
+    <!-- "contact" section -->
+    <section>
+      <h2>Contact</h2>
+      <div class="hero-form">
+        <h3>CONTACT ME</h3>
+        <p>Fill out this form and I will reach out</p>
+        <!-- Add form element -->
+        <form>
+          <label for="name">Enter full name:</label>
+          <input type="text" placeholder="Your Name" name="name" id="name" />
+          <label for="email">Enter email address:</label>
+          <input
+            type="text"
+            placeholder="Email Address"
+            name="email"
+            id="email"
+          />
+          <label for="phone">Enter a telephone number:</label>
+          <input
+            type="text"
+            placeholder="Phone Number"
+            name="phone"
+            id="phone"
+          />
+          <label for="message">Message:</label>
+          <input
+            type="text"
+            placeholder="Your Message"
+            message="message"
+            id="message"
+          />
+          <button type="submit">Send!</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <h2>❤️ Made with love by Jonathan.</h2>
+     
+    </footer>
+  </body>
+</html>
