@@ -10,27 +10,26 @@
   padding: 0 100px 20px 100px;
   border-bottom: 3px solid;
   margin-bottom: 35px;
-  color: #024e76;
+  color: #000000;
 }
 
 .primary-border {
-  border-color: #fce138;
+  border-color: #000000;
 }
 
 .secondary-border {
-  border-color: #39a6b2;
+  border-color: #000000;
 }
 
 body {
-  /* more on this crazy alphanumerical value in a minute! */
-  color: #39a6b2;
+  color: #000000;
   font-family: Helvetica, Arial, sans-serif;
 }
 
 /* apply styles to <header> */
 header {
   padding: 20px 35px;
-  background-color: #39a6b2;
+  background-color: #1e90ff;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -39,14 +38,14 @@ header {
 header h1 {
   font-weight: bold;
   font-size: 36px;
-  color: #fce138;
+  color: #000000;
   margin: 0;
   /* display: inline; */
 }
 
 header a {
   text-decoration: none;
-  color: #fce138;
+  color: #fffaf0;
 }
 
 header nav {
@@ -74,27 +73,28 @@ header nav ul li a {
 
 footer {
   display: flex;
-  background: #fce138;
+  background: #1e90ff;
   width: 100%;
   padding: 40px 35px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 footer h2 {
-  display: inline;
-  color: #024e76;
+  /* display: inline; */
+  color: #fffaf0;
   font-size: 30px;
   margin: 0;
 }
 
 footer div {
-  float: right;
+  /* float: right; */
   line-height: 1.5;
   text-align: right;
 }
 
 footer a {
-  color: #024e76;
+  color: #000000;
 }
 
 section {
@@ -111,11 +111,11 @@ section {
 /* Hero Style End */
 
 .hero-form {
-  border: 3px solid #024e76;
-  background-color: #fce138;
+  border: 3px solid #000000;
+  background-color: #fffaf0;
   padding: 20px;
-  width: 400px;
-  color: #024e76;
+  width: 200px;
+  color: #4b0082;
   bottom: 120px;
   right: 140px;
   text-align: left;
@@ -131,11 +131,11 @@ section {
 }
 
 .form-input {
-  border: 1px solid #024e76;
+  border: 1px solid #000000;
   display: block;
   padding: 7px 15px;
   font-size: 16px;
-  color: #024e76;
+  color: #000000;
   width: 100%;
   margin-bottom: 15px;
 }
@@ -148,9 +148,9 @@ section {
 
 .intro p {
   line-height: 1.7;
-  color: #39a6b2;
+  color: #4b0082;
   width: 80%;
-  font-size: 20px;
+  font-size: 40px;
   margin: 0 auto;
 }
 
@@ -160,7 +160,7 @@ section {
 
 .work {
   text-align: center;
-  background: #fce138;
+  background: #daa520;
 }
 
 .work div {
@@ -173,13 +173,13 @@ section {
 }
 
 .work h3 {
-  color: #024e76;
+  color: #4b0082;
   font-size: 46px;
   margin-top: 10px;
 }
 
 .work p {
-  color: #39a6b2;
+  color: #f8f8ff;
   font-size: 23px;
 }
 
@@ -189,25 +189,25 @@ section {
 
 .contacts {
   text-align: center;
-  background: #024e76;
+  background: #ffd700;
 }
 
 .contacts h2 {
-  color: #fce138;
+  color: #000000;
 }
 
 .contact-info iframe {
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 300px;
 }
 
 .contact-info div {
-  width: 410px;
+  width: 300px;
   display: inline-block;
   vertical-align: top;
   text-align: left;
   margin: 30px 0 0 60px;
-  color: white;
+  color: fdf5e6;
 }
 
 .flex {
